@@ -78,6 +78,13 @@ hr {
 	margin-bottom: 30px;
 	border: 0;
 }
+.custom-center {
+	display: flex;
+	flex-direction: column;
+}
+.img-black{
+	background-color: #000;
+}
 /* Navigation */
 #nav {
 	z-index: 9999;
@@ -174,6 +181,7 @@ hr {
 	text-align: center;
 	color: #fff;
 	background: url(../img/intro-bg.jpg) no-repeat center top;
+	/*1920x820*/
 	background-color: #7bc3d1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -196,10 +204,12 @@ hr {
 	width: 200px;
 	height: 200px;
 	display: inline-block;
+	align-self: center;
 }
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
+	text-align: center;
 }
 /* Skills Section */
 #skills {
