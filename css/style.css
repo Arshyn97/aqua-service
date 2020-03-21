@@ -676,10 +676,10 @@ color: #2c3e50;
 }
 #contact .btn {
 	background-color: transparent;
-	border: 1px solid #fff;
+	border: 1px solid #7bc3d1;
 	border-radius: 0;
 	padding: 10px 20px;
-	color: #fff;
+	color: #7bc3d1;
 	margin-top: 15px;
 }
 #contact .btn:hover, #contact .btn:focus {
@@ -715,7 +715,35 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Media Queries */
 @media(max-width:600px) {
 	.skill-card_1{
-		height: 1370px;
+		height: 1400px;
+	}
+	.skill-card_2{
+		height: 990px;
+	}
+	.skill-card_mobile{
+		height: 610px;
+	}
+	.skill-card_3{
+		height: 528px;
+	}
+}
+@media(max-width:770px) {
+	.skill-card_1{
+		height: 1400px;
+	}
+	.skill-card_2{
+		height: 990px;
+	}
+	.skill-card_mobile{
+		height: 610px;
+	}
+	.skill-card_3{
+		height: 528px;
+	}
+}
+@media(max-width:1025px) {
+	.skill-card_1{
+		height: 1080px;
 	}
 	.skill-card_2{
 		height: 990px;
