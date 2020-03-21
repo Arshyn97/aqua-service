@@ -237,7 +237,8 @@ hr {
 	height: 300px;
 }
 .skill-card_1{
-	height: 977px;
+	/* height: 977px; */
+	height: auto;
 }
 .skill-card_2{
 	height: 762px;
@@ -293,6 +294,7 @@ hr {
 .skill-card_btn {
 	border: 1px solid #7bc3d1;
 	color: #7bc3d1;
+	margin-bottom: 20px;
 }
 .mini-header h4{
 	margin: 0;
@@ -714,9 +716,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 /* Media Queries */
 @media(max-width:600px) {
-	.skill-card_1{
+	/* .skill-card_1{
 		height: 1400px;
-	}
+	} */
 	.skill-card_2{
 		height: 990px;
 	}
@@ -728,9 +730,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	}
 }
 @media(max-width:770px) {
-	.skill-card_1{
+	/* .skill-card_1{
 		height: 1400px;
-	}
+	} */
 	.skill-card_2{
 		height: 990px;
 	}
@@ -742,9 +744,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	}
 }
 @media(max-width:1025px) {
-	.skill-card_1{
+	/* .skill-card_1{
 		height: 1080px;
-	}
+	} */
 	.skill-card_2{
 		height: 990px;
 	}
