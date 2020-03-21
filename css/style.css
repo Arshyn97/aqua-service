@@ -592,25 +592,25 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: #7bc3d1;
+	background: #f6f6f6;
 }
 #contact h2 {
-	color: #fff;
+	color: #000;
 }
 #contact hr {
-	background: rgba(255,255,255,0.3);
+	background: #7bc3d1;
 }
 #contact h3 {
 	padding-top: 20px;
 	font-size: 20px;
 	font-weight: 400;
-	color: #fff;
+	color: #000;
 }
 #contact form {
 	padding: 30px 0;
 }
 #contact i.fa {
-	color: #121d1f;
+	color: #7bc3d1;
 	margin-bottom: 10px;
 }
 #contact .text-danger {
@@ -632,7 +632,7 @@ label {
 	color: #2c3e50;
 	background-color: rgba(255,255,255,0.8);
 	background-image: none;
-	border: 0;
+	border: 1px solid #7bc3d1;
 	border-radius: 2px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -668,7 +668,7 @@ color: #2c3e50;
 #contact .social i.fa {
 	font-size: 30px;
 	padding: 4px 5px;
-	color: #fff;
+	color: #7bc3d1;
 	transition: all 0.5s;
 }
 #contact .social i.fa:hover {
@@ -713,6 +713,20 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 /* Media Queries */
+@media(max-width:600px) {
+	.skill-card_1{
+		height: 1370px;
+	}
+	.skill-card_2{
+		height: 990px;
+	}
+	.skill-card_mobile{
+		height: 610px;
+	}
+	.skill-card_3{
+		height: 528px;
+	}
+}
 @media(min-width:768px) {
 .intro {
 	height: 100%;
